@@ -9,8 +9,3 @@ class Application
 fun main(args: Array<String>) {
     runApplication<Application>(*args)
 }
-
-/**
- * 1. 모듈 나누기 core, infra, app
- * 2.
- */

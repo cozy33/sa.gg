@@ -1,8 +1,8 @@
 rootProject.name = "supplybase"
 
-include("module-app")
-include("module-core")
-include("module-infra")
+include("supply-app")
+include("supply-core")
+include("supply-infra")
 
 pluginManagement {
     val kotlinVersion: String by settings

@@ -1,4 +1,4 @@
-package me.bread.core.domain.enums
+package me.bread.supplybase.core.domain.enums
 
 enum class Weapon(nexonName: String) {
     THROW("throw"),

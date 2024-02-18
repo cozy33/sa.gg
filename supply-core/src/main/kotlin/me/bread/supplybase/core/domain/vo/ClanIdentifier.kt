@@ -1,4 +1,4 @@
-package me.bread.core.domain.vo
+package me.bread.supplybase.core.domain.vo
 
 data class ClanIdentifier(
     val clanId: ClanId,

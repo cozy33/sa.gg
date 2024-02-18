@@ -1,4 +1,4 @@
-package me.bread.supplybase
+package me.bread.supplybase.app
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

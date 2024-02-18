@@ -1,7 +1,7 @@
-package me.bread.core.domain.entity
+package me.bread.supplybase.core.domain.entity
 
-import me.bread.core.domain.enums.StartingPoint
-import me.bread.core.domain.vo.MatchId
+import me.bread.supplybase.core.domain.enums.StartingPoint
+import me.bread.supplybase.core.domain.vo.MatchId
 import java.time.Instant
 
 class Match(

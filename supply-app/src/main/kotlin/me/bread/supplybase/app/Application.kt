@@ -1,4 +1,4 @@
-package me.bread.app
+package me.bread.supplybase.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

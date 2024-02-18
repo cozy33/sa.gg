@@ -1,7 +1,7 @@
-package me.bread.core.domain.entity
+package me.bread.supplybase.core.domain.entity
 
-import me.bread.core.domain.enums.Weapon
-import me.bread.core.domain.vo.MemberId
+import me.bread.supplybase.core.domain.enums.Weapon
+import me.bread.supplybase.core.domain.vo.MemberId
 
 class Player(
     val memberId: MemberId,

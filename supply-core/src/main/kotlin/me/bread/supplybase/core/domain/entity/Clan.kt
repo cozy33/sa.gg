@@ -1,6 +1,6 @@
-package me.bread.core.domain.entity
+package me.bread.supplybase.core.domain.entity
 
-import me.bread.core.domain.vo.ClanId
+import me.bread.supplybase.core.domain.vo.ClanId
 import java.time.LocalDateTime
 
 class Clan(

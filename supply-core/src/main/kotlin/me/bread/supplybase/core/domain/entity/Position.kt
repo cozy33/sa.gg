@@ -1,4 +1,4 @@
-package me.bread.core.domain.entity
+package me.bread.supplybase.core.domain.entity
 
 class Position(
     val id: Long,

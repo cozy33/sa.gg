@@ -1,13 +1,13 @@
-package me.bread.supplybase
+package me.bread.app
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SupplyBaseApplication
+class Application
 
 fun main(args: Array<String>) {
-    runApplication<SupplyBaseApplication>(*args)
+    runApplication<Application>(*args)
 }
 
 /**

@@ -1,6 +1,6 @@
 package me.bread.sagg.app.api.controller
 
-import org.springframework.http.ResponseEntity
+import me.bread.sagg.app.api.support.response.ApiResponse
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestParam
@@ -13,8 +13,8 @@ class ClanApi {
     fun getAllClan(
         @RequestParam test: String,
         @PathVariable test2: String,
-    ): ResponseEntity<Result> {
-        return ResponseEntity.ok(Result(result = "ok", data = Data("hi")))
+    ): ApiResponse<String> {
+        return ApiResponse.success("test")
     }
 }
 

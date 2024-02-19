@@ -3,6 +3,7 @@ rootProject.name = "sa.gg"
 include("sa-app")
 include("sa-core")
 include("sa-infra")
+include("sa-tests:api-docs")
 
 pluginManagement {
     val kotlinVersion: String by settings
@@ -11,6 +12,7 @@ pluginManagement {
     val detektVersion: String by settings
     val openapiGradleVersion: String by settings
     val graalvmBuildPluginVersion: String by settings
+    val asciidoctorConvertVersion: String by settings
 
     resolutionStrategy {
         eachPlugin {
@@ -23,6 +25,7 @@ pluginManagement {
                 "io.gitlab.arturbosch.detekt" -> useVersion(detektVersion)
                 "org.springdoc.openapi-gradle-plugin" -> useVersion(openapiGradleVersion)
                 "org.graalvm.buildtools.native" -> useVersion(graalvmBuildPluginVersion)
+                "org.asciidoctor.jvm.convert" -> useVersion(asciidoctorConvertVersion)
             }
         }
     }

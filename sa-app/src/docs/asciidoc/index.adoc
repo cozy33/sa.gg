@@ -1,0 +1,19 @@
+= API Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 3
+:sectlinks:
+:snippets: build/generated-snippets
+
+== Introduce
+
+This is the API documentation.
+
+== Example API
+
+=== Example GET API
+==== Curl Request
+include::{snippets}/get all clan/curl-request.adoc[]
+'''

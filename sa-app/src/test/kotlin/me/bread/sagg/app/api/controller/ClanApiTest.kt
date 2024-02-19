@@ -1,10 +1,9 @@
 package me.bread.sagg.app.api.controller
 
-import io.restassured.RestAssured.given
+import io.dodn.springboot.test.api.RestDocsTest
+import io.dodn.springboot.test.api.RestDocsUtils.requestPreprocessor
+import io.dodn.springboot.test.api.RestDocsUtils.responsePreprocessor
 import io.restassured.http.ContentType
-import me.bread.sagg.app.restdocs.RestDocsTest
-import me.bread.sagg.app.restdocs.RestDocsUtils.requestPreprocessor
-import me.bread.sagg.app.restdocs.RestDocsUtils.responsePreprocessor
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import org.springframework.http.HttpStatus
@@ -33,6 +32,8 @@ class ClanApiTest : RestDocsTest() {
             .queryParam("test", "ok")
             .get("/clans/{test2}", "hi")
             .then()
+            .log()
+            .all()
             .status(HttpStatus.OK)
             .apply(
                 document(
@@ -47,7 +48,7 @@ class ClanApiTest : RestDocsTest() {
                     ),
                     responseFields(
                         fieldWithPath("result").type(JsonFieldType.STRING).description("ResultType"),
-                        fieldWithPath("data.result").type(JsonFieldType.STRING).description("Result Date"),
+                        fieldWithPath("data").type(JsonFieldType.STRING).description("test"),
                         fieldWithPath("error").type(JsonFieldType.NULL).ignored(),
                     ),
                 ),

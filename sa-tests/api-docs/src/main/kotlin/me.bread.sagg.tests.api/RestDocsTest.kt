@@ -1,4 +1,4 @@
-package me.bread.sagg.app.restdocs
+package io.dodn.springboot.test.api
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.databind.SerializationFeature

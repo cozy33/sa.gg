@@ -22,4 +22,4 @@
 ### 짬짬히
 - [ ] 도메인 모듈 JPA 엔티티로 변환하기
 - [ ] LocalStack Docker compose에 연동
-- [x] open api 문서화 도구 의존성 추가
+- [x] asciidoctor 플러그인 추가

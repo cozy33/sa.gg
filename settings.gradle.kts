@@ -3,6 +3,7 @@ rootProject.name = "sa.gg"
 include("sa-app")
 include("sa-core")
 include("sa-infra")
+include("sa-clients")
 include("sa-tests:api-docs")
 
 pluginManagement {

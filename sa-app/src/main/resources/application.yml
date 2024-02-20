@@ -1,0 +1,7 @@
+spring.application.name: sagg-api
+spring.profiles.active: local
+
+spring:
+  config:
+    import:
+      - db.yml

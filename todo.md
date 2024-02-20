@@ -23,3 +23,4 @@
 - [ ] 도메인 모듈 JPA 엔티티로 변환하기
 - [ ] LocalStack Docker compose에 연동
 - [x] asciidoctor 플러그인 추가
+- [x] clients 모듈 생성
